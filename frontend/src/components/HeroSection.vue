@@ -7,7 +7,7 @@
                               <p>Get in touch with fascinating stories from the East</p>
                         </div>
                         
-                        <a href="#" class="cta">start reading</a>
+                        <RouterLink to="/signup" class="cta">start reading</RouterLink>
                   </div>
                   <div class="banner-image">
                         <p>some image here</p>
