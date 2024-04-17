@@ -1,6 +1,6 @@
 <template>
       <div class="nav">
-            <a class="brand-logo" href="#">savannah tales</a>
+            <a class="brand-logo" href="#"><img src="../assets/brand-image.png"/></a>
             <ul class="nav-links">
                   <li><a href="#">our story</a></li>
                   <li><a href="#">write for us</a></li>
