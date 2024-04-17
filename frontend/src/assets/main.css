@@ -20,7 +20,6 @@ body {
       line-height: 1.6;
       font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
-      /* font-weight: <we; */
       font-style: normal;
 }
 
@@ -86,6 +85,25 @@ body {
 }
 
 .feature-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.value-section {
+      background-color: #32302F;
+      color: #FFF;
+      padding: 100px 15%;
+}
+
+.value-section .value-reader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+}
+
+.value-section .value-writer {
       display: flex;
       justify-content: space-between;
       align-items: center;
