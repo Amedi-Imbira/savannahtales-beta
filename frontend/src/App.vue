@@ -1,7 +1,16 @@
-<script></script>
+<script>
+import NavBar from '@/components/NavBar.vue'
+
+export default {
+      components: {
+            NavBar,
+      }
+}
+</script>
 
 <template>
+      <NavBar />
+      <RouterView />
       
-      <h1>Helo world </h1>
       
 </template>

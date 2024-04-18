@@ -1,4 +1,5 @@
 <template>
+  <h1>This is our story</h1>
   
 </template>
 
