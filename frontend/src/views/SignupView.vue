@@ -1,8 +1,17 @@
-<script setup>
+<script>
 import Navbar from '@/components/Navbar.vue';
+
+export default {
+      components: {
+            Navbar
+      }
+}
 </script>
 
 <template>
       <Navbar />
-      <h1>This is the sign up page</h1>
+      <div class="signup-view">
+            <h1>Sign up</h1>
+            
+      </div>
 </template>

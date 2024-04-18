@@ -10,6 +10,7 @@ import LoginView from './views/LoginView.vue'
 import SignupView from './views/SignupView.vue'
 import AboutUsView from './views/AboutUsView.vue'
 import WritersView from './views/WritersView.vue'
+import ForgotPasswordView from './views/ForgotPasswordView.vue'
 
 const routes = [
       {path: '/', component: LandingView},
@@ -17,6 +18,7 @@ const routes = [
       {path: '/signup', component: SignupView},
       {path: '/about', component: AboutUsView},
       {path: '/writers', component: WritersView},
+      {path: '/forgot', component: ForgotPasswordView},
 ]
 
 const router = createRouter({
